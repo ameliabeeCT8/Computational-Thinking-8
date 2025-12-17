@@ -27,4 +27,11 @@
     "chat.implicitContext.suggestedContext": false,
     "chat.sendElementsToChat.enabled": false,
     "chat.useCloudButtonV2": false,
+    "cSpell.words": [
+        "harrypotter",
+        "scottpilgrim",
+        "snowhite",
+        "spiderman",
+        "starwars"
+    ],
 }
