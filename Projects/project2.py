@@ -18,7 +18,7 @@ elif answer1 == "C":
 elif answer1 == "D":
     it_points += 5
 elif answer1 == "E":
-    starwars_points += 1
+    starwars_points += 3
 elif answer1 == "F":
     snowhite_points += 1
 elif answer1 == "G":
@@ -26,8 +26,8 @@ elif answer1 == "G":
 input ()
 answer2 = input ("Which genre is your favorite? A superhero, B fantasy, C horror, D comedy")
 if answer2 == "A":
-    starwars_points += 1
-    spiderman_points += 5
+    starwars_points += 2
+    spiderman_points += 1
 elif answer2 == "B":
     harrypotter_points += 1
     snowhite_points += 5
