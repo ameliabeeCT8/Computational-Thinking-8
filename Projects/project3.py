@@ -13,7 +13,7 @@ y4 = 150
 
 
 # Section 2 - Setup
-set_background("moon")
+set_background("creek")
 t1 = create_sprite("kitten",x1,y1)
 t2 = create_sprite("alien",x2,y2)
 t3 = create_sprite("fish",x3,y3)
