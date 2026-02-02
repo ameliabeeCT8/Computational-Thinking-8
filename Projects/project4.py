@@ -2,6 +2,10 @@ import turtle, time, random
 from utils import *
 
 # Section 1 - setup
+
+#The objective of this game is to keep the cat fed and on high health by pressing the keys
+#and to not let the health go down or you will lose the game.
+
 set_background("flowers")
 
 food = 10
@@ -25,6 +29,7 @@ def pet_cat ():
     health += 1
 
 window.onkeypress (pet_cat, "w")
+#when the "W" key is pressed it "pets" the cat and adds +1 onto its health points.
 
 def feed_cat ():
     global food
@@ -34,6 +39,8 @@ def feed_cat ():
     fish.hideturtle()
 
 window.onkeypress(feed_cat, "space")
+#when the "space" key is pressed a fish appears in the cats mouth for 0.5 seconds and 
+#adds 1 to the food points.
 
 print (f"{health}")
 print (f"{food}")
